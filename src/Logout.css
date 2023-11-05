@@ -1,0 +1,36 @@
+/* LogoutPage.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+h1 {
+    color: black;
+}
+  
+.logout-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+  
+.logout-button:hover {
+    background-color: #0056b3;
+}
+  

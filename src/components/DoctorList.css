@@ -1,0 +1,48 @@
+/* DoctorList.css */
+
+/* Style for the ticket container */
+.card {
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e5ab19;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  /* Hover effect */
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Style for the card header */
+  .card-header {
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Style for the card body */
+  .card-body {
+    padding: 10px;
+  }
+  
+  /* Style for the text elements inside the card */
+  p {
+    margin: 0;
+  }
+  
+  /* Styling specific elements inside the card */
+  .card-body p b {
+    font-weight: bold;
+  }
+  
+  /* Cursor style on card */
+  .card {
+    cursor: pointer;
+  }
+  

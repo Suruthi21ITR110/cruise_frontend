@@ -1,0 +1,35 @@
+/* Header.css */
+header {
+  
+  color:black;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between; /* Align items to the right and left */
+}
+.h1{
+  font-size: large;
+}
+.navbar {
+  display: flex;
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+  gap: 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.nav-list li {
+  margin: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: medium;
+}

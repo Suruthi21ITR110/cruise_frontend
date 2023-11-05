@@ -1,0 +1,82 @@
+/* Contact.css */
+
+/* Contact Container */
+.contact-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Contact Header */
+/* Center the "Contact Us" header */
+.contact-header {
+  /* background-color: #007bff; */
+  color: #e5ab19;
+  margin-left: 40%;
+  text-align: center; /* Center-align the header text */
+  font-size: 24px;
+}
+
+.contact-header h1{
+  color: #e5ab19;
+}
+
+
+/* Contact Content */
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.social-links img{
+  height: 50px;
+}
+/* Contact Information */
+.contact-info {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Social Media Section */
+.social-media {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between; /* Evenly space the images */
+  align-items: center; /* Vertically center the content */
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #007bff;
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Cruise Details */
+.cruise-details {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Contact Footer */
+.contact-footer {
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

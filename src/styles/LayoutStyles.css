@@ -1,0 +1,133 @@
+/* Blue, Lavender, and White Color Scheme */
+.main {
+  padding: 10px;
+  height: 100vh;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-image: url('https://images2.alphacoders.com/887/887887.jpg');
+  background-size: cover; /* Adjust background-size as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff; /* Text color on top of the background image */
+  text-align: center; /* Center-align content on top of the background image */
+  padding: 100px; /* Adjust the padding as needed */
+}
+
+
+.sidebar {
+  min-height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  /* background-color: #3498db;  */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  color: #007BFF; /* Lavender text color */
+  padding: 20px;
+}
+
+.content {
+  width: 100%;
+  padding: 5px;
+}
+
+.header {
+  height: 8vh;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* background-color: #ffffff; White background */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add space between items */
+}
+
+.body {
+  height: 82vh;
+  padding: 50px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* background-color: #ffffff; White background */
+}
+
+.logo h6 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 10px 0;
+  color: #3498db; /* Blue text color */
+}
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 20px; /* Add spacing between menu items */
+}
+
+/* Add specific styles for the "Logout" menu item */
+.menu-item:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+.menu-item a {
+  color: #007BFF; /* Lavender text color */
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.menu-item i {
+  font-size: 1.1rem;
+  margin: 0 10px;
+}
+
+.active {
+  /* background-color: #3498db; Blue background for active items */
+  padding: 10px;
+}
+
+.active a,
+.active i {
+  color: #e5ab19; /* White text color for active items */
+}
+
+/* Header Content Decorated Like a Button */
+.header-content {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: flex-end;
+  margin: 0 15px;
+}
+
+.header-content i {
+  margin-right: 20px;
+  font-size: 1.2rem;
+  color: #3498db; /* Blue color for the icon */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.header-content a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #3498db; /* Blue text color */
+  margin: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer; /* Change cursor to pointer on hover */
+  padding: 10px 20px; /* Add padding to make it look like a button */
+  border: 2px solid #3498db; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.header-content a:hover {
+  background-color: #3498db; /* Blue background on hover */
+  color: #ffffff; /* White text color on hover */
+}

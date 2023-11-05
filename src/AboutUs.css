@@ -1,0 +1,52 @@
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+h2 {
+    font-size: 26px;
+    margin-bottom: 23px;
+    text-align: center;
+    color: #e5ab19;
+}
+  
+p {
+    font-size:18px;
+    margin-bottom: 20px;
+}
+  
+.image-container {
+    text-align: center;
+}
+  
+.Img{
+    width:40%;
+    height:20%;
+}
+
+.cruise-ship-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+  
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: aquamarine;
+}
+  
+.review h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.review-author {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  

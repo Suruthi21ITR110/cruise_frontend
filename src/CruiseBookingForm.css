@@ -1,0 +1,80 @@
+.cruise-booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cruise-booking-form:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 30px; /* Increase margin between form groups */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px; /* Increase font size for labels */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 16px; /* Increase padding for input fields */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  font-size: 18px; /* Increase font size for input fields */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+  border-color: #007bff;
+}
+
+select[multiple] {
+  height: 120px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 16px 28px; /* Increase padding for the button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  font-size: 20px;
+  color: #007bff;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.success-message.show {
+  opacity: 1;
+}

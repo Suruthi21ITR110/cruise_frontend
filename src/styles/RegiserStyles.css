@@ -1,0 +1,83 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://images2.alphacoders.com/887/887887.jpg');
+
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    /* height: 100%; */
+}
+
+.register-form {
+  border: 1px solid #eee; /* Light gray border */
+  background-color: #fff; /* White background color */
+  padding: 30px;
+  width: 400px; /* Adjust the width as needed */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+  color: #333; /* Dark text color */
+}
+
+.register-form h3 {
+  text-align: center;
+  color: #007bff; /* Blue text color for the title */
+}
+
+.register-form label {
+  color: #333; /* Dark gray label text color */
+}
+
+.register-form input {
+  background-color: #f1f1f1; /* Light gray input field background color */
+  border: 1px solid #eee; /* Light gray input field border */
+  color: #333; /* Dark text color for input fields */
+}
+
+.m-2 {
+  margin: 2px;
+  color: #333; /* Dark text color for the link */
+}
+
+.btn-primary {
+  background-color: #ff69b4; /* Pink background color for the button */
+  color: #fff; /* White text color for the button */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin:10px 0px;
+}
+
+.btn-primary:hover {
+  background-color: #e5ab19; /* Hover color for the button */
+}
+
+
+.button-link {
+  /* margin-left: 45%;
+  margin-top: 185px; */
+  /* margin-left: 20%; */
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: large;
+}
+
+/* Add a hover effect for the link button */
+.button-link:hover {
+  background-color: #e5ab19;
+  color: #fff;
+}

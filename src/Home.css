@@ -1,0 +1,74 @@
+/* Content.css */
+/*.Home{
+    background-image: url('https://e0.pxfuel.com/wallpapers/438/72/desktop-wallpaper-carnival-dream-cruise-ship-white-big-ship-cruise-liner-luxury-ships-sea-for-with-resolution-high-quality.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+}*/
+.changecontent::after{
+    content: ' ';
+    text-align: center;
+    color: #e5ab19;
+    text-shadow: 0px 1px 1px rgb(14, 13, 13);
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "France";}
+    10%{content: "Spain";}
+    20%{content: "United States";}
+    30%{content: "China";}
+    40%{content: "India";}
+    50%{content: "Pakistan";}
+    60%{content: "Italy";}
+    70%{content: "Turkey";}
+    80%{content: "Mexico";}
+    90%{content: "Germany";}
+    100%{content: "United kingdom";}
+} 
+.Home h1
+{
+    color: rgb(14, 13, 13);
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    text-align: center;
+}
+.Home h2{
+    color: rgb(11, 10, 10);
+    font-size: 50px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    text-align:center;
+}
+.Home p
+{
+    color: #000000;
+    
+    text-align: center;
+    font-size: 10px;
+    font-weight: 550;
+
+}
+/* Apply styles to the link button */
+.button-link {
+    margin-left: 45%;
+    margin-top: 185px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Add a hover effect for the link button */
+  .button-link:hover {
+    background-color: #0056b3;
+  }
+  
